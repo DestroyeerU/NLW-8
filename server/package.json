@@ -4,8 +4,10 @@
   "description": "Server of NLW#8",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts"
   },
   "keywords": [],
   "author": "DestroyeerU",
